@@ -37,7 +37,7 @@ if opt.show_flops_params:
     input_ = torch.randn (1, 3, 256, 256).cuda()
     flops, params = profile (my_net, inputs = (input_,))
     print("FLOPS of the network ARE::::::::::::::",flops)
-    print("FLOPS of the network ARE::::::::::::::",params)    
+    print("Parametrs of the network ARE::::::::::::::",params)    
 
 image_dir = "{}/".format(opt.dataset)
 image_filenames = [x for x in os.listdir(image_dir) if is_image_file(x)]
