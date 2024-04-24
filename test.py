@@ -15,7 +15,7 @@ torch.backends.cudnn.benchmark = True
 from thop import profile
 
 # Testing settings
-parser = argparse.ArgumentParser(description='phaseformer-implementation')
+parser = argparse.ArgumentParser(description='Spectroformer-implementation')
 parser.add_argument('--dataset', default='D:/Raqib/underwaterTresting/testing_code/dataset/UCCS/green/', required=False, help='facades')
 parser.add_argument('--save_path', default='results/gopro/', required=False, help='facades')
 parser.add_argument('--checkpoints_path', default='./checkpoints/blur/', required=False, help='facades')
