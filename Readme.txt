@@ -26,4 +26,5 @@ Traing
           ├── a/
           └── b/
 
-2. rub Pyhthon train.py
+2. run
+  Pyhthon train.py
