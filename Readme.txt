@@ -25,3 +25,15 @@ Traing
 
 2. run
   pyhthon train.py
+
+
+
+If you find this work helpful, please reference it as follows:
+
+@inproceedings{khan2024spectroformer,
+  title={Spectroformer: A Multi-Domain Query Cascaded Transformer Network for Underwater Image Enhancement},
+  author={Khan, Raqib and Mishra, Priyanka and Mehta, Nancy and Phutke, Shruti S and Vipparthi, Santosh Kumar and Nandi, Sukumar and Murala, Subrahmanyam},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={1454--1463},
+  year={2024}
+}
