@@ -12,3 +12,18 @@ python test.py --dataset dataset/SQUID/ --save_path Results/SQUID
 # To test on UCCS dataset. run
 python test.py --dataset dataset/UCCS/ --save_path Results/UCCS
 
+
+
+
+
+Traing
+1. Structure of data for training should be like 
+  uw_data/
+      ├── train/
+      │   ├── a/
+      │   └── b/
+      └── test/
+          ├── a/
+          └── b/
+
+2. rub Pyhthon train.py
