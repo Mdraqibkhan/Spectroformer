@@ -161,8 +161,8 @@ for epoch in range(opt.epoch_count, opt.niter + opt.niter_decay + 1):
         ######################
 
         optimizer_g.zero_grad()
-
-        loss_g_l1= 3*Charbonnier_loss(tar,fake_b) +2*L_per(fake_b,tar)+2.5*Gradient_Loss(fake_b,tar)+(1-MS_SSIM_loss(fake_b,tar))+Cont_Loss(tar,fake_b,rgb)
+      
+        loss_g_l1= 0.03*Charbonnier_loss(tar,fake_b) +0.025*L_per(fake_b,tar)+0.02*Gradient_Loss(fake_b,tar)+0.01*(1-MS_SSIM_loss(fake_b,tar))
 
         if opt.edge_loss is True:
 
