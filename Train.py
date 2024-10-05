@@ -23,7 +23,14 @@ import scipy.stats as st
 from scipy.fft import fft2, fftshift, ifft2
 import os
 
-
+# structure of data for training should be like 
+# uw_data/
+#     ├── train/
+#     │   ├── a/
+#     │   └── b/
+#     └── test/
+#         ├── a/
+#         └── b/
 
 # Training settings
 parser = argparse.ArgumentParser(description='Spectroformer-implementation')
