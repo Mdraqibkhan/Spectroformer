@@ -15,13 +15,13 @@ python test.py --dataset dataset/UCCS/ --save_path Results/UCCS
 
 Traing
 1. Structure of data for training should be like 
-  uw_data/
-      ├── train/
-      │   ├── a/
-      │   └── b/
-      └── test/
-          ├── a/
-          └── b/
+ uw_data/
+    ├── train/
+    │   ├── a/  # Input images
+    │   └── b/  # Reference (ground truth) images
+    └── test/
+        ├── a/  # Input images
+        └── b/  # Reference (ground truth) images
 
 2. run
   pyhthon train.py
