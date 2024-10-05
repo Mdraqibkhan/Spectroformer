@@ -24,4 +24,4 @@ Traing
           └── b/
 
 2. run
-  Pyhthon train.py
+  pyhthon train.py
