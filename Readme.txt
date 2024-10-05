@@ -13,9 +13,6 @@ python test.py --dataset dataset/SQUID/ --save_path Results/SQUID
 python test.py --dataset dataset/UCCS/ --save_path Results/UCCS
 
 
-
-
-
 Traing
 1. Structure of data for training should be like 
   uw_data/
