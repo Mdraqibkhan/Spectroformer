@@ -209,11 +209,11 @@ for epoch in range(opt.epoch_count, opt.niter + opt.niter_decay + 1):
     os.makedirs(output_dir2, exist_ok=True)
 
     for test_iter, batch in enumerate(testing_data_loader,1):
-        rgb_input,rgb_input1, target,target1,ind = batch[0].to(device), batch[1].to(device), batch[2].to(device),batch[3].to(device),batch[4]
+        rgb_input,target,ind = batch[0].to(device), batch[1].to(device),batch[2]
   
-        prediction1=net_g(rgb_input)
+        prediction=net_g(rgb_input)
         # print(prediction.shape)
-        out=torch.cat((prediction1,target),3)
+        out=torch.cat((prediction,target),3)
         output_cat =out[0].detach().squeeze(0).cpu()
         save_img(output_cat, output_dir2+ind[0])
 
