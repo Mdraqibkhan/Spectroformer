@@ -1,4 +1,4 @@
-## The sample degraded images for testing are provided in "dataset/dataset_name/".
+# The sample degraded images for testing are provided in "dataset/dataset_name/".
 ## Chekpoints are provided in "checkpoints/dataset-name/".
 ## After successful execution the results will be stored in "results/dataset-name" folder.
 
