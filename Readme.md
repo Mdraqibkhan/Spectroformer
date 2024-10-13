@@ -97,8 +97,9 @@ python test.py --dataset dataset/UCCS/ --save_path Results/UCCS
 
 
 3. run
+```
   pyhthon train.py
-
+```
 
 ## Citation
 If you find this work helpful, please reference it as follows:
