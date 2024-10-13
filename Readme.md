@@ -27,23 +27,65 @@
 
 
 
-## The sample degraded images for testing are provided in "dataset/dataset_name/".
-## Chekpoints are provided in "checkpoints/dataset-name/".
-## After successful execution the results will be stored in "results/dataset-name" folder.
+# Evaluation 
 
-## To test on UIEB dataset. run
-python test.py --dataset datasets/UIEB/ --save_path Results/UIEB 
-##To test on U-45 dataset. run
+To evaluate the model on different datasets using the provided checkpoints and sample degraded images.
+
+## Dataset and Checkpoint Structure
+
+- **Sample degraded images for testing**: Available in `dataset/dataset_name/`.
+- **Checkpoints for evaluation**: Provided in `checkpoints/dataset-name/`.
+- **Results storage**: After successful execution, the results will be saved in the `results/dataset-name/` folder.
+
+## Running the Evaluation
+
+To evaluate the model on different datasets, follow the instructions below for each specific dataset:
+
+### **UIEB Dataset Evaluation**
+Run the following command to evaluate the model on the UIEB dataset:
+```
+python test.py --dataset datasets/UIEB/ --save_path Results/UIEB
+```
+
+### **U-45 Dataset Evaluation**
+Run the following command to evaluate the model on the UIEB dataset:
+```
 python test.py --dataset dataset/U-45/ --save_path Results/U-45
-
-## To test on SQUID dataset. run
+```
+### ** SQUID Dataset Evaluation**
+Run the following command to evaluate the model on the UIEB dataset:
+```
 python test.py --dataset dataset/SQUID/ --save_path Results/SQUID
-## To test on UCCS dataset. run
+```
+### ** UCCS Dataset Evaluation**
+Run the following command to evaluate the model on the UIEB dataset:
+```
 python test.py --dataset dataset/UCCS/ --save_path Results/UCCS
 
+```
+### ** Folder Overview 
+```
+├── dataset
+│   ├── UIEB
+│   ├── U-45
+│   ├── SQUID
+│   ├── UCCS
+├── checkpoints
+│   ├── UIEB
+│   ├── U-45
+│   ├── SQUID
+│   ├── UCCS
+├── results
+│   ├── UIEB
+│   ├── U-45
+│   ├── SQUID
+│   ├── UCCS
+
+```
 
 ## Traing
-1. Structure of data for training should be like 
+1. Structure of data for training should be like
+ ```Shell
  uw_data/
     ├── train/
     │   ├── a/  # Input images
@@ -51,8 +93,10 @@ python test.py --dataset dataset/UCCS/ --save_path Results/UCCS
     └── test/
         ├── a/  # Input images
         └── b/  # Reference (ground truth) images
+```
 
-2. run
+
+3. run
   pyhthon train.py
 
 
