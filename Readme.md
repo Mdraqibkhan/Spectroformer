@@ -41,23 +41,23 @@ To evaluate the model on different datasets using the provided checkpoints and s
 
 To evaluate the model on different datasets, follow the instructions below for each specific dataset:
 
-### **UIEB Dataset Evaluation**
+### **UIEB Dataset Evaluation
 Run the following command to evaluate the model on the UIEB dataset:
 ```
 python test.py --dataset datasets/UIEB/ --save_path Results/UIEB
 ```
 
-### **U-45 Dataset Evaluation**
+### **U-45 Dataset Evaluation
 Run the following command to evaluate the model on the UIEB dataset:
 ```
 python test.py --dataset dataset/U-45/ --save_path Results/U-45
 ```
-### ** SQUID Dataset Evaluation**
+### ** SQUID Dataset Evaluation
 Run the following command to evaluate the model on the UIEB dataset:
 ```
 python test.py --dataset dataset/SQUID/ --save_path Results/SQUID
 ```
-### ** UCCS Dataset Evaluation**
+### ** UCCS Dataset Evaluation
 Run the following command to evaluate the model on the UIEB dataset:
 ```
 python test.py --dataset dataset/UCCS/ --save_path Results/UCCS
