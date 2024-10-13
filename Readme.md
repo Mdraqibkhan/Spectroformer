@@ -16,7 +16,8 @@
     <a href="http://www.cvlibs.net/](https://www.scss.tcd.ie/~muralas/">Subrahmanyam Murala</a>
   </p>
   <h3 align="center">WACV-2024</h3>
-  <h3 align="center"><a href="https://openaccess.thecvf.com/content/WACV2024/papers/Khan_Spectroformer_MultiDomain_Query_Cascaded_Transformer_Network_for_Underwater_Image_Enhancement_WACV_2024_paper.pdf">Paper</h3>
+  <h3 align="center"><a href="https://openaccess.thecvf.com/content/WACV2024/
+                       papers/Khan_Spectroformer_MultiDomain_Query_Cascaded_Transformer_Network_for_Underwater_Image_Enhancement_WACV_2024_paper.pdf">Paper</h3>
   <div align="center"></div>
 </p>
 <p align="center">
