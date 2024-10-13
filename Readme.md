@@ -11,7 +11,7 @@
     ·
     <a href="https://visionintelligence.github.io">Santosh Kumar Vipparthi</a>
     ·
-    <a href="https://scholar.google.com/citations?user=RwlJNLcAAAAJ">Sukumar Nandi</a>
+    <a href="https://www.iitg.ac.in/sukumar/">Sukumar Nandi</a>
     ·
     <a href="http://www.cvlibs.net/](https://www.scss.tcd.ie/~muralas/">Subrahmanyam Murala</a>
   </p>
