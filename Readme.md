@@ -21,7 +21,7 @@
 </p>
 <p align="center">
   <a href="">
-    <img src="Spectroformer.jpg.png" alt="Logo" width="70%">
+    <img src="Spectroformer.jpg" alt="Logo" width="70%">
   </a>
 </p>
 
