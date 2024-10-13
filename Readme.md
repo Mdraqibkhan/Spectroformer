@@ -37,6 +37,25 @@ To evaluate the model on different datasets using the provided checkpoints and s
 - **Checkpoints for evaluation**: Provided in `checkpoints/dataset-name/`.
 - **Results storage**: After successful execution, the results will be saved in the `results/dataset-name/` folder.
 
+### Folder Overview 
+```
+├── dataset
+│   ├── UIEB
+│   ├── U-45
+│   ├── SQUID
+│   ├── UCCS
+├── checkpoints
+│   ├── UIEB
+│   ├── U-45
+│   ├── SQUID
+│   ├── UCCS
+├── results
+│   ├── UIEB
+│   ├── U-45
+│   ├── SQUID
+│   ├── UCCS
+
+```
 ## Running the Evaluation
 
 To evaluate the model on different datasets, follow the instructions below for each specific dataset:
@@ -63,25 +82,7 @@ Run the following command to evaluate the model on the UCCS dataset:
 python test.py --dataset dataset/UCCS/ --save_path Results/UCCS
 
 ```
-### Folder Overview 
-```
-├── dataset
-│   ├── UIEB
-│   ├── U-45
-│   ├── SQUID
-│   ├── UCCS
-├── checkpoints
-│   ├── UIEB
-│   ├── U-45
-│   ├── SQUID
-│   ├── UCCS
-├── results
-│   ├── UIEB
-│   ├── U-45
-│   ├── SQUID
-│   ├── UCCS
 
-```
 
 ## Traing
 1. Structure of data for training should be like
